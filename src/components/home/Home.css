@@ -157,3 +157,11 @@
   bottom: 10%;
   right: 2%;
 }
+.home__img {
+  width: 120px; /* Ensuring consistent width */
+  height: 130px; /* Height matches width for a perfect circle */
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image is properly fitted */
+  border: 3px solid #0f0f0f; /* Optional white border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a stylish effect */
+}
