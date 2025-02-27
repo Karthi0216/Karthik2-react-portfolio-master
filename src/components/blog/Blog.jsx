@@ -11,13 +11,11 @@ const Blog = () => {
             <div className="blog__container grid">
                 <div className="blog__card">
                     <div className="blog__thumb">
-                        {/* Updated href to avoid ESLint error */}
-                        <a href="javascript:void(0);">
-                            <span className="blog__category">Example</span>
-                        </a>
-                        <a href="javascript:void(0);">
-                            <img src={Image1} alt="Blog Thumbnail" className='blog__img' />
-                        </a>
+                        {/* Changed <a> to <button> */}
+                        <button className="blog__category">Example</button>
+                        <button className="blog__img-btn">
+                            <img src={Image1} alt="Blog Thumbnail" className="blog__img" />
+                        </button>
                     </div>
                     <div className="blog__details">
                         <h3 className="blog__title">Example Blog</h3>
